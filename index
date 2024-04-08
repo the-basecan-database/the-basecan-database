@@ -7,31 +7,36 @@
 
 <body>
   <nav>
-    <a href="./indez.html">Main Page</a>
+    <a href="./index.html">Main Page</a>
     <a href="./about.html">About</a>
   </nav>
   <h1>The Basecan Database</h1>
-    <h3>Species</h3>
+  
+  <div id="about">
+    <p>Welcome to <strong>the Basecan Database</strong>, a database based around the Barbecue Bacon Burger, odd phenomena and many inside jokes.</p>
+    <p>Read more about us <a href="./about.html">here</a></p>
+  </div>
+
+  <div id="news">
+    <h2>News</h2>
     <ul>
-      <li>Arctos</li>
-      <li>Collarus</li>
-      <li>Horribilis</li>
-      <li>Nelsoni (extinct)</li>
+      <li>April 8, 2024 - Placeholder Text</li>
     </ul>
-    <h3>Features</h3>
-    <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
   </div>
-  <div id="habitat">
-    <h2>Habitat</h2>
-    <h3>Countries with Large Brown Bear Populations</h3>
-    <ol>
-      <li>Russia</li>
-      <li>United States</li>
-      <li>Canada</li>
-    </ol>
-    <h3>Countries with Small Brown Bear Populations</h3>
-    <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
+
+  <div id="categories">
+    <h2>Categories</h2>
+    <p>Here are our objects neatly organized into folders. Dive in!</p>
+    <ul>
+      <li><a href="./characters.html">Characters</a></li>
+      <li><a href="./factions.html">Faction/Groups</a></li>
+      <li><a href="./locations.html">Locations</a></li>
+      <li><a href="./curses.html">Anomalies/Curses/Phenomenon</a></li>
+      <li><a href="./items.html">Items</a></li>
+      <li><a href="./albums.html">Albums</a></li>
+    </ul>
   </div>
+
 </body>
 
 </html>
