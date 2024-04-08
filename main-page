@@ -7,8 +7,8 @@
 
 <body>
   <nav>
-    <a href="./main-page.html">Brown Bear</a>
-    <a href="./intro.html">About Me</a>
+    <a href="./main-page.html">Main Page</a>
+    <a href="./about.html">About</a>
   </nav>
   <h1>The Basecan Database</h1>
     <h3>Species</h3>
