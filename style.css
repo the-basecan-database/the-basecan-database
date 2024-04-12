@@ -1,0 +1,213 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* Old browsers */
+  background: #141E30;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(-45deg, #35577D, #341E30);
+  padding: 0;
+}
+
+.basecan {
+  color: #FFF !important;
+  font-size: 2.5em;
+  padding-top: 10px;
+  width: 100%;
+  font-family: 'Merriweather', Georgia;
+  text-align: center;
+}
+
+.heading {
+  color: #FFF !important;
+  width: 100%;
+  font-size: 10px;
+  font-family: Georgia;
+  border: 1px solid LightGrey;
+  padding: 10px;
+  background: LightGrey;
+  right-padding: 10%
+}
+
+.heading a, .heading p {
+  background: grey;
+  border: 1px solid LightGrey;
+  color: white;
+  margin: 5px auto;
+  padding: 7px 14px;
+  min-width: 20px;
+  text-decoration: none;
+  border-radius: 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  display: inline-block;;
+  text-align: center;
+}
+
+.heading span {
+  background: darkGrey;
+  border: 1px solid LightGrey;
+  color: white;
+  margin: 5px auto;
+  padding: 7px 14px;
+  min-width: 20px;
+  text-decoration: none;
+  border-radius: 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  display: inline-block;
+  text-align: center;
+}
+
+.heading a:hover, .heading p:hover {
+  background: white;
+  border: 1px solid LightGrey;
+  color: grey;
+}
+
+.heading .just {
+  display: none;
+  position: absolute;
+  padding: 1px;
+  background: Grey;
+  border-radius: 20px;
+  border: 1px solid LightGrey;
+  text-align: left !important;
+}
+
+.categorylist:hover .just {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  font-size: 10px;
+  background: darkGrey;
+  text-align: left;  
+  border: none;
+} 
+
+.about {
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 50px;
+  font-size: 20px;
+  padding: 10px;
+  width: 50%;
+  border: 3px solid white;
+  position: relative;
+  margin: 0 auto;
+  color: white;
+}
+
+.about a {
+  color: white;
+}
+
+.about a:hover {
+  color: LightGrey;
+}
+
+.about:hover .category {
+  display: block;
+}
+
+.about .map {
+    display: block;
+    margin: auto;
+    cursor: zoom-in;
+    transition: background-color 300ms;"
+}
+
+h2 {
+  color: white;
+  padding-top: 20px;
+  font-family: 'Reddit Mono', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+
+.news {
+  font-family: 'Merriweather', 'Times New Roman', sans-serif;
+  text-align: center;
+  background: lightGrey;
+  color: black;
+  font-weight: 50;
+  font-size: 15px;
+  padding: 10px;
+  width: 70%;
+  border: 1px solid lightGrey;
+  position: relative;
+  margin: 0 auto;
+}
+
+.categories {
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  font-weight: 30;
+  color: lightGrey;
+  font-size: 20px;
+  padding: 5px 10%;
+  width: 800px;
+  position: relative;
+  margin: 0 auto; 
+  background: rgba(198, 198, 228, 0.25);
+  border-radius: 5px;
+}
+
+.categories p {
+  font-weight: 150;
+}
+
+.categories a {
+  color: white;
+  text-decoration: none;
+}
+
+.categories a:hover {
+  color: LightGrey;
+  text-decoration: underline;
+}
+
+.footer {
+  font-family: 'Reddit Mono', Helvetica;
+  color: rgba(255, 255, 255, 0.5);
+  float: left;
+  font-size: 14px;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+.caption {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 80%;
+  width: 60%;
+  background-color: white;
+  color: black;
+}
+
+.content {
+  padding: 40px;
+}
+
+.writer-img {
+  -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  float: left;
+  width: 50px;
+}
+
