@@ -33,7 +33,6 @@ body {
   border: 1px solid LightGrey;
   padding: 10px;
   background: LightGrey;
-  right-padding: 10%
 }
 
 .heading a, .heading p {
@@ -89,7 +88,31 @@ body {
   background: darkGrey;
   text-align: left;  
   border: none;
+  z-index: 10;
 } 
+
+.desc {
+  font-family: 'Poppins';
+  color: white;
+  position: relative;
+  text-align: left;
+  font-size: 20px;
+  padding: 10px 100px;
+  margin: 0 auto;
+  font-weight: 30;
+  width: 40%;
+}
+
+.desc a {
+  color: white;
+}
+
+.imgs {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 .about {
   text-align: center;
@@ -120,7 +143,8 @@ body {
     display: block;
     margin: auto;
     cursor: zoom-in;
-    transition: background-color 300ms;"
+    transition: background-color 300ms;
+    text-align: center;
 }
 
 h2 {
@@ -145,6 +169,21 @@ h2 {
   border: 1px solid lightGrey;
   position: relative;
   margin: 0 auto;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center;
+  background: lightGrey;
+  color: black;
+  font-size: 15px;
+  position: relative;
+  margin: 0 auto;
+  max-width: 70%;
 }
 
 .categories {
@@ -182,6 +221,17 @@ h2 {
   font-size: 14px;
   padding-left: 10px;
   text-transform: uppercase;
+}
+
+.footer0 {
+  font-family: 'Reddit Mono', Helvetica;
+  color: rgba(255, 255, 255, 0.5);
+  float: center;
+  font-size: 10px;
+}
+
+.footer0 a {
+  color: white;
 }
 
 .caption {
