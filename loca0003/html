@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>The island of Diamos</title>
+  <link href='style.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="heading">
+    <a href="./index.html">THE BASECAN DATABASE</a>
+    <a href="./about.html">General Information</a>
+  <div class="categorylist" style="display: inline-block;">
+    <p>Categories</p>
+      <div class="just">
+        <a href="./characters.html">Characters</a>
+        <a href="./factions.html">Faction/Groups</a>
+        <a href="./locations.html">Locations</a>
+        <a href="./events.html">Events</a>
+        <a href="./curses.html">Anomalies/Curses/Phenomena</a>
+        <a href="./items.html">Items</a>
+      </div>
+    </div>
+  </nav>
+  
+  <div id="basecan" class="basecan">
+    <h2 style="font-family: 'Merriweather', Georgia; font-size: 1.5em;">Diamos (island)</h2>
+  </div>
+
+    <p></p>
+  
+  <div id="about" class="about">
+    <p><em>The tank bear.</em></p>
+  </div>
+
+  <div id="desc" class="desc">
+    <p><strong>Description: </strong>Located in the country of <a href="./coun00001.html">Basecan</a>, it is a nature preserve, home to <a href="./char00003.html">Frank the Tank</a>, who protects the island. While settled way before the 1800s, by the 1940s, all human life left the island due to Frank the Tank. Not much is known after the takeover of Frank the Tank, however the island is now a bustling evergreen forest due to there being no lumber industry on the island.</p>
+    <p></p>
+    <p>Below is a map of the country, which includes Diamos.</p>
+  </div>
+
+  <div id="imgs" class="imgs">
+      <img src="https://gcdnb.pbrd.co/images/AomnUdijHTOg.png" width="70%" height="auto">
+        <div id="footer0" class="footer0">
+          <p>(we made this so credit to us???)</p>
+        </div>
+  </div>
+
+<div class="footer">
+  <h5>© Copyright by Basecan Database.</h5>
+</div>
+
+</body>
+
+</html>
