@@ -112,6 +112,15 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 50px;
+  font-size: 20px;
+  padding: 10px;
+  border: 0px solid white;
+  position: relative;
+  margin: 0 auto;
+  color: white;
 }
 
 .about {
