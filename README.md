@@ -1,4 +1,6 @@
-### Basecan Database
+### THE Basecan Database
+
+This may not be up to date as we are continously updating the website.
 
 CREDITS:
 
